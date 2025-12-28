@@ -18,8 +18,8 @@
                     <div class="nav-buttons">
                         <a href="#about" class="nav-btn" onclick="showSection('about')">About Me</a>
                         <a href="#skills" class="nav-btn" onclick="showSection('skills')">Skills</a>
-                        <a href="#projects" class="nav-btn" onclick="showSection('projects')">Projects</a>
                         <a href="#experience" class="nav-btn" onclick="showSection('experience')">Experience</a>
+                        <a href="#projects" class="nav-btn" onclick="showSection('projects')">Projects</a>
                         <a href="#education" class="nav-btn" onclick="showSection('education')">Education</a>
                         <a href="#certifications" class="nav-btn" onclick="showSection('certifications')">Certifications</a>
                         <a href="#contact" class="nav-btn" onclick="showSection('contact')">Contact</a>
@@ -31,16 +31,17 @@
                 <div id="about" class="section">
                     <h2 class="section-title">About Me</h2>
                     <p class="about-text">
-                        Hello! I'm a Data Engineer and recent Master’s graduate in Computer Science from the University of Massachusetts Lowell (CGPA 3.8). 
-                        I have hands-on experience in building scalable data processing pipelines, with a strong foundation in Python, Java, SQL, and cloud technologies.
+                        Hello! I'm a Data Engineer with 3 years of experience designing, building, and optimizing scalable data pipelines in fast-paced environments, including financial systems. 
+                        Strong background in transforming complex, high-volume datasets into reliable, analytics-ready assets that support business and customer-facing applications.
+                    </p>
+                    <p class=" about-text">
+                        Experienced with Python, SQL, Scala, and Java, and cloud platforms including Google Cloud Platform (BigQuery, Dataproc, Cloud Run), AWS, and Snowflake. Proficient in data 
+                        orchestration and transformation using Apache Airflow and dbt, with a focus on data quality, performance optimization, and maintainable data models.
+
                     </p>
                     <p class="about-text">
-                        I’ve worked with tools like Databricks, Apache Airflow, Kafka, and Spark, gaining practical exposure to ETL workflows, real-time streaming, and data integration. 
-                        I also have experience applying CI/CD practices and automation to improve data workflows and ensure secure, reliable solutions.
-                    </p>
-                    <p class="about-text">
-                        My projects and academic work span retail data processing, academic analytics, and real-time platforms, where I focused on turning raw data into actionable insights. 
-                        I’m passionate about designing efficient, scalable data infrastructure and excited to contribute to enterprise-scale analytics and decision-making.
+                        Projects and academic work span retail data pipelines, academic analytics, and real-time data platforms, emphasizing end-to-end data engineering, monitoring, and governance. 
+                        Passionate about building efficient, scalable data infrastructure that enables enterprise-level analytics and data-driven decision-making.
                     </p>
                 </div>
 
@@ -93,6 +94,55 @@
                     </div>
                 </div>
 
+                <!-- Experience Section -->
+                <div id="experience" class="section">
+                    <h2 class="section-title">Professional Experience</h2>
+                    
+                    <div class="experience-timeline">
+                        <div class="experience-item">
+                            <div class="experience-date">March 2024 - Present</div>
+                            <div class="experience-content">
+                                <h3 class="experience-title">Data Engineer    </h3>
+                                <h4 class="experience-company">One Park Financial - Remote</h4>
+                                <ul class="experience-details">
+                                    <li>Developed SQL queries in Snowflake to extract critical small business financing data, supporting operational reporting and strategic initiatives for various departments.</li>
+                                    <li>Created Python scripts with Pandas to clean and transform raw loan application data, ensuring high data quality for downstream analytics and accurate financial reporting.</li>
+                                    <li>Designed robust data models using dbt to standardize metrics across various financing products, improving reporting consistency and analytical capabilities for stakeholders.</li>
+                                    <li>Built and maintained scalable data pipelines on Google Cloud Platform using Airflow, integrating diverse financial datasets for analytical consumption and business offerings.</li>
+                                    <li>Integrated new third-party datasets into the existing data infrastructure, processing large volumes of financial records using BigQuery for enhanced business intelligence.</li>
+                                    <li>Optimized data storage and computation for large datasets using Apache Spark, enhancing query performance and reducing processing times for detailed financial analysis.</li>
+                                    <li>Configured and debugged existing data pipelines, resolving issues in complex business logic to maintain accuracy and reliability of financial insights.</li>
+                                    <li>Captured analytical requirements from internal business teams, translating them into technical specifications for new data models that supported strategic financial planning</li>
+                                    <li>Designed and managed relational database schemas in Snowflake, ensuring data integrity and clear relationships between various tables for robust financial data insights.</li>
+                                    <li>Developed automated data validation checks using Python, deploying production-ready code to ensure the accuracy of newly ingested financing platform data.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="experience-item">
+                            <div class="experience-date">Jun 2022 - July 2023</div>
+                            <div class="experience-content">
+                                <h3 class="experience-title">Data Analyst</h3>
+                                <h4 class="experience-company">Core Health & Fitness, LLC - Remote</h4>
+                                <ul class="experience-details">
+                                    <li>Built data models in Snowflake, integrating diverse sales, marketing, and operational data for comprehensive analysis across fitness equipment product lines.</li>
+                                    <li>Improved data accuracy by cleaning and validating raw customer purchase and warranty data, using SQL queries within an AWS RDS environment.</li>
+                                    <li>Utilized Python scripts for in-depth exploratory data analysis on customer demographics and purchasing behavior, informing targeted fitness promotions.</li>
+                                    <li>Designed and implemented automated data pipelines using Apache Airflow on Google Cloud Platform to ingest manufacturing sensor data and inventory updates.</li>
+                                    <li>Developed complex business logic as code in DBT, transforming raw sales and equipment usage data into standardized metrics for financial reporting and product strategy.</li>
+                                    <li>Optimized the storage and retrieval of large historical sales and product registration datasets in BigQuery, enhancing query performance for business intelligence applications.</li>
+                                    <li>Resolved complex technical issues in existing data pipelines, ensuring reliable data flow for critical dashboards tracking fitness equipment performance.</li>
+                                    <li>Managed relational database schemas, defining clear relationships between tables storing customer profiles, order history, and service records for unified access.</li>
+                                    <li>Implemented production-ready Python code to integrate new third-party market trend data, expanding the scope of analytical capabilities for competitive intelligence.</li>
+                                    <li>Captured data requirements from product development and marketing stakeholders, translating them into technical specifications for new data models supporting feature prioritization.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects Section -->
                 <div id="projects" class="section">
                     <h2 class="section-title">Featured Projects</h2>
                     <p class="about-text">Here are some of the key projects I've worked on:</p>
@@ -170,57 +220,7 @@
                     </div>
                 </div>
 
-                <div id="experience" class="section">
-                    <h2 class="section-title">Professional Experience</h2>
-                    
-                    <div class="experience-timeline">
-                        <div class="experience-item">
-                            <div class="experience-date">October 2025 - Present</div>
-                            <div class="experience-content">
-                                <h3 class="experience-title">Data Engineer Intern   </h3>
-                                <h4 class="experience-company">Community Dreams Foundation - Remote</h4>
-                                <ul class="experience-details">
-                                    <li>Implement solutions on the Azure platform, including data pipelines, data warehouses, and data lakes</li>
-                                    <li>Design and develop data models and data structures for effective data storage, retrieval, and analysis</li>
-                                    <li>Optimize data solutions for performance, scalability, and reliability</li>
-                                    <li>Test and deploy solutions to ensure they meet business requirements and are ready for production</li>
-                                
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="experience-item">
-                            <div class="experience-date">June 2025 - September 2025</div>
-                            <div class="experience-content">
-                                <h3 class="experience-title">Backend Developer Intern</h3>
-                                <h4 class="experience-company">Motate - Remote</h4>
-                                <ul class="experience-details">
-                                    <li>Designed and developed scalable backend services and APIs for mobile and web applications using Python and cloud technologies</li>
-                                    <li>Implemented machine learning models for predictive analytics integrated into backend data processing systems</li>
-                                    <li>Optimized backend performance through SQL query optimization and indexing strategies</li>
-                                    <li>Automated deployment processes using CI/CD pipelines for reliable system updates</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="experience-item">
-                            <div class="experience-date">Jan 2022 - Apr 2023</div>
-                            <div class="experience-content">
-                                <h3 class="experience-title">Data Engineer Intern</h3>
-                                <h4 class="experience-company">Virtusa - Chennai, India</h4>
-                                <ul class="experience-details">
-                                    <li>Assisted in building and maintaining ETL pipelines for structured and unstructured data</li>
-                                    <li>Worked with SQL, Python, and Snowflake/Azure to extract, clean, and transform raw datasets</li>
-                                    <li>Developed queries and scripts to generate data validation reports and monitor pipeline performance</li>
-                                    <li>Contributed to a data warehouse migration project, optimizing queries for better performance and lower cost</li>
-                                    <li>Collaborated with senior data engineers to understand best practices in data modeling and pipeline orchestration(Airflow/DBT)</li>
-                                    <li>Gained hands-on experience in cloud platforms (AWS/Azure) and big data tools (Spark/Hadoop)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <!-- Education Section -->
                 <div id="education" class="section">
                     <h2 class="section-title">Education</h2>
                     
@@ -237,19 +237,10 @@
                                 <strong>Relevant Coursework:</strong> Algorithms, Internet of Things, Data Mining, Networks & Security
                             </p>
                         </div>
-                        
-                        <div class="education-card">
-                            <h3 class="education-degree">Bachelor of Technology in Information Technology</h3>
-                            <h4 class="education-school">Saveetha Engineering College</h4>
-                            <p class="education-details">
-                                <strong>Duration:</strong> 2019 - 2023<br>
-                                <strong>CGPA:</strong> 8.3<br>
-                                <strong>Location:</strong> Chennai, India
-                            </p>
-                        </div>
                     </div>
-                </div>
-
+                </div>   
+                   
+                <!-- Certifications Section -->
                 <div id="certifications" class="section">
                     <h2 class="section-title">Certifications</h2>
                     
